@@ -482,6 +482,13 @@ html {
   background-color: #60558f;
   position: relative;
   cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.main-screen .buttons .main-buttons .btn:hover {
+  background-color: #ed5e74;
+  color: white;
 }
 
 .main-screen .buttons .main-buttons .btn-big {
@@ -492,8 +499,6 @@ html {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 0 5px #ddd;
           box-shadow: 0 0 0 5px #ddd;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .main-screen .buttons .main-buttons .btn-big:hover {
@@ -520,5 +525,40 @@ html {
   font-size: 16px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.playlist-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EEEFF5;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translateX(-450px);
+          transform: translateX(-450px);
+}
+
+.playlist-screen.active {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.playlist-screen .btn {
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: white;
+  color: #60558f;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

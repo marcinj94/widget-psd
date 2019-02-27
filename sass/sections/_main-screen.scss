@@ -88,6 +88,12 @@
                 background-color: $purple;
                 position: relative;
                 cursor: pointer;
+                transition: .5s;
+
+                &:hover {
+                    background-color: $red;
+                    color: white;
+                }
 
                 &-big {
                     transform: scale(1.4);
@@ -95,7 +101,6 @@
                     margin-right: 15px;
                     border-radius: 50%;
                     box-shadow: 0 0 0 5px #ddd;
-                    transition: .5s;
 
                     &:hover {
                         box-shadow: 0 0 0 5px white;
