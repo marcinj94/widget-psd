@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/bg.png') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+html {
+    font-family: 'Rambla', sans-serif;
+}

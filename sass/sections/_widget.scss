@@ -1,0 +1,11 @@
+.widget {
+    // border: 2px solid white;
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    overflow: hidden;
+}

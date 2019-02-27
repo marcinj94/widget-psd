@@ -1,0 +1,15 @@
+//Normalize.css
+@import 'helpers/normalize';
+
+//Reset css
+@import 'helpers/reset';
+
+//Helpers
+@import 'helpers/mixins';
+@import 'helpers/colors';
+
+
+//Sections 
+@import 'sections/main';
+@import 'sections/widget';
+@import 'sections/main-screen';
