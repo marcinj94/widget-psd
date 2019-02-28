@@ -6,8 +6,7 @@
 
     .cover {
         flex-basis: 70%;
-        background: url('../img/cover.png') no-repeat center;
-        background-size: cover;
+        background: url('../img/cover.png') no-repeat center / cover;
         position: relative;
 
         .menu {

@@ -6,11 +6,13 @@
     height: 100%;
     background-color: $white-bg;
     transition: .5s;
-    transform: translateX(-450px);
+    overflow: auto;
+    transform: translateX(450px);
 
     &.active {
         transform: translateX(0px);
     }
+
 
     .btn {
         border: none;
@@ -26,5 +28,68 @@
         position: absolute;
         top: 10px;
         left: 10px;
+    }
+
+    .playlist__title {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: $purple;
+    }
+
+    .playlist {
+        margin: 20px;
+
+        &__song {
+            list-style-type: none;
+            position: relative;
+            margin-bottom: 40px;
+            cursor: pointer;
+
+            .song__description {
+                font-size: 14px;
+                color: gray;
+            }
+
+            .song__title {
+                font-size: 18px;
+                color: $dark-purple;
+            }
+
+            .btn {
+                font-size: 14px;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+
+                .fas {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .btn-share {
+                top: 0;
+                left: 70%;
+            }
+
+            .btn-heart {
+                top: 0;
+                color: $red;
+                left: 85%;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -20px;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: #ccc;
+            }
+        }
     }
 }
