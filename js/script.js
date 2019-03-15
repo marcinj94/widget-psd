@@ -37,37 +37,37 @@ const songs = [
         artist: 'Icona Pop',
         time: '3:16',
         name: `Still Don't know`,
-        backgroundCover: "url('../img/cover.png') no-repeat center / cover"
+        backgroundCover: "url('./img/cover.png') no-repeat center / cover"
     },
     {
         artist: 'Icona Pop',
         time: '2:35',
         name: 'I love it',
-        backgroundCover: "url('../img/cover.png') no-repeat center / cover"
+        backgroundCover: "url('./img/cover.png') no-repeat center / cover"
     },
     {
         artist: 'Icona Pop',
         time: '2:50',
         name: 'Girlfriend',
-        backgroundCover: "url('../img/cover.png') no-repeat center / cover"
+        backgroundCover: "url('./img/cover.png') no-repeat center / cover"
     },
     {
         artist: 'Icona Pop',
         time: '3:07',
         name: 'We Got the World',
-        backgroundCover: "url('../img/cover.png') no-repeat center / cover"
+        backgroundCover: "url('./img/cover.png') no-repeat center / cover"
     },
     {
         artist: 'Icona Pop',
         time: '3:24',
         name: `Still believe in You`,
-        backgroundCover: "url('../img/cover.png') no-repeat center / cover"
+        backgroundCover: "url('./img/cover.png') no-repeat center / cover"
     },
     {
         artist: 'Slayer',
         time: '3:34',
         name: `Angel of Death`,
-        backgroundCover: "url('../img/slayer.jpg') no-repeat center / cover"
+        backgroundCover: "url('./img/slayer.jpg') no-repeat center / cover"
     },
 
 ];
@@ -97,10 +97,6 @@ const rightButton = document.querySelector('.btn-right');
 const sectionCover = document.querySelector('.cover');
 
 let active = 0;
-
-console.log(leftButton);
-
-console.log(rightButton);
 
 const changeSong = (value) => {
     if (value === 'right') {
